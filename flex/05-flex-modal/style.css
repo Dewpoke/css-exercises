@@ -53,6 +53,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  flex: 0 0 auto;
 }
 
 button {
@@ -89,4 +91,8 @@ button.cancel {
   font-weight: 700;
 
   margin-bottom: 0px;
+}
+
+.text{
+  margin-bottom: 8px;
 }
